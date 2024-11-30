@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang = "en">
+<head>
+    <meta charset = "UTF-8">
+    <meta name = "viewport" content = "width=device-width, initial-scale=1.0">
+    <title>Contact Us | Orientertainment</title>
+    <link rel = "stylesheet" href = "css/styles.min.css">
+    <link rel="shortcut icon" href="images/favicon.ico">
+	<link rel="icon" type="image/png" sizes="32x32" href="images/favicon-32.png">
+	<link rel="apple-touch-icon" sizes="180x180" href="images/appletouch-icon.png">
+	<link rel="icon" sizes="192x192" href="images/android-chrome-192.png">
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@3.5.0/fonts/remixicon.css" rel="stylesheet">
+</head>
+
+<body>
+    <!-- Mobile Nav -->
+	<nav class = "mobile-nav">
+        <div class = "menu-logo">
+            <a class="menu-icon" onclick="hamburger()">
+                <div>&#9776;</div>
+            </a>
+
+            <img src = "images/company-logo.png" alt = "Orientertainment Logo">
+        </div>
+
+		<div id = "menu-links">
+			<a href = "index.htm">Home</a>
+			<a href = "about.htm">About Us</a>
+			<a href = "games.htm">Games</a>
+			<a href = "contact.htm">Contact Us</a>
+		</div>	
+	</nav>
+
+    <!-- Tablet Nav -->
+	<nav class = "tablet-nav">       
+        <a href = "index.htm">Home</a>
+        <a href = "about.htm">About Us</a>
+
+        <img src = "images/company-logo.png" alt = "Orientertainment Logo">
+
+        <a href = "games.htm">Games</a>
+        <a href = "contact.htm">Contact Us</a>       
+	</nav>
+	
+	<!-- Desktop Nav -->
+	<nav class = "desktop-nav">       
+        <img src = "images/company-logo.png" alt = "Orientertainment Logo">
+    
+		<ul>
+			<li><a href = "index.htm">Home</a></li>
+			<li><a href = "about.htm">About Us</a></li>
+			<li><a href = "games.htm">Games</a></li>
+			<li><a href = "contact.htm">Contact Us</a></li>
+		</ul>         
+	</nav>
+
+    <!-- Main Content -->
+    <main id = "contact">
+        <div id = "contact-map">
+            <div id = "contact-info">
+                <h1>Contact us today!</h1>
+                <p>Email: <a href = "mailto:tayagchesterjonathan@gmail.com">orientent@gmail.com</a></p>
+                <p>Phone Number: <a href = "tel:+639531340177">0953-134-0177</a></p>
+            </div>
+
+            <div id = "map">
+                <h1>We are located here!</h1>
+                <iframe src = "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3851.4596080947163!2d120.58743607688284!3d15.133083163814891!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3396f24ec2f5a1f9%3A0x5e0af8a6aaab2282!2sHoly%20Angel%20University!5e0!3m2!1sen!2sph!4v1699955212729!5m2!1sen!2sph" allowfullscreen = "" loading = "lazy" referrerpolicy = "no-referrer-when-downgrade" target = "_blank"></iframe>
+            </div>
+        </div>
+
+        <div id = "feedback-form">
+            <h1>How did we do?</h1>
+            <form>
+                <fieldset>
+                    <legend>&nbsp;User Info.&nbsp;</legend>
+                    <div class = "user-info">
+                        <label for = "username">Username:</label><br>
+                        <input type = "text" name = "username" id = "username" placeholder = "OrientEnt Username"><br>
+                    </div>
+                    <div class = "user-info">
+                        <label for = "email">Email:</label><br>
+                        <input type = "email" name = "email" id = "email" placeholder = "user@email.com"><br>
+                    </div>
+                    <div class = "user-info">
+                        <label for = "phone">Phone Number:</label><br>
+                        <input type = "tel" name = "phone" id = "phone" pattern = "09[0-9]{2}-[0-9]{3}-[0-9]{4}" placeholder = "0912-345-6789">
+                    </div>
+                </fieldset>
+
+                <fieldset>
+                    <legend>&nbsp;Rating&nbsp;</legend>
+
+                    <div id = "ratings">
+                        <input type = "radio" name = "rating" id = "five-stars">
+                        <label for = "five-stars"><i class="ri-bard-fill"></i><i class="ri-bard-fill"></i><i class="ri-bard-fill"></i><i class="ri-bard-fill"></i><i class="ri-bard-fill"></i> &nbsp;-&nbsp; 5 STARS</label><br>
+
+                        <input type = "radio" name = "rating" id = "four-stars">
+                        <label for = "four-stars"><i class="ri-bard-fill"></i><i class="ri-bard-fill"></i><i class="ri-bard-fill"></i><i class="ri-bard-fill"></i><i class="ri-bard-line"></i> &nbsp;-&nbsp; 4 STARS</label><br>
+
+                        <input type = "radio" name = "rating" id = "three-stars">
+                        <label for = "three-stars"><i class="ri-bard-fill"></i><i class="ri-bard-fill"></i><i class="ri-bard-fill"></i><i class="ri-bard-line"></i><i class="ri-bard-line"></i> &nbsp;-&nbsp; 3 STARS</label><br>
+
+                        <input type = "radio" name = "rating" id = "two-stars">
+                        <label for = "two-stars"><i class="ri-bard-fill"></i><i class="ri-bard-fill"></i><i class="ri-bard-line"></i><i class="ri-bard-line"></i><i class="ri-bard-line"></i> &nbsp;-&nbsp; 2 STARS</label><br>
+
+                        <input type = "radio" name = "rating" id = "one-star">
+                        <label for = "one-star"><i class="ri-bard-fill"></i><i class="ri-bard-line"></i><i class="ri-bard-line"></i><i class="ri-bard-line"></i><i class="ri-bard-line"></i> &nbsp;-&nbsp; 1 STAR</label>
+                    </div>
+                </fieldset>
+
+                <fieldset>
+                    <legend>&nbsp;Feedback&nbsp;</legend>
+                    <textarea name = "feedback" id = "feedback" placeholder = "Share your feedback here!"></textarea>
+                </fieldset>
+
+                <input type = "submit" id = "submit" value = "Submit Feedback">
+            </form>
+        </div>
+    </main>
+
+    <!-- Footer Area -->
+    <footer>
+        <div class = "social">
+            <img src = "images/personal-logo.png" alt = "Personal Logo" class = "personal-logo">
+            <p>Social Media:</p>
+            <a href = "https://www.facebook.com/chesterjonathan.tayag" target = "_blank"><img src = "images/facebook-logo.png" alt = "Facebook Logo" class = "socmed"></a>
+            <a href = "https://twitter.com/ChesterJT22" target = "_blank"><img src = "images/twitter-logo.png" alt = "Twitter Logo" class = "socmed"></a>
+        </div>
+
+        <div class = "credits">
+            <p>This website is created by Tayag, Chester Jonathan C. from WD-202</p>
+            <p>In Partial Fulfillment of the Requirements for the Degree School of Computing</p>
+            <p>Resources used for this project came from Canva.com</p>
+        </div>
+    </footer>
+
+    <script src = "scripts/script.js"></script>
+</body>
+</html>

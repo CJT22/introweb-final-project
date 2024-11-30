@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang = "en">
+<head>
+    <meta charset = "UTF-8">
+    <meta name = "viewport" content = "width=device-width, initial-scale=1.0">
+    <title>About Us | Orientertainment</title>
+    <link rel = "stylesheet" href = "css/styles.min.css">
+    <link rel="shortcut icon" href="images/favicon.ico">
+	<link rel="icon" type="image/png" sizes="32x32" href="images/favicon-32.png">
+	<link rel="apple-touch-icon" sizes="180x180" href="images/appletouch-icon.png">
+	<link rel="icon" sizes="192x192" href="images/android-chrome-192.png">
+</head>
+
+<body>
+    <!-- Mobile Nav -->
+	<nav class = "mobile-nav">
+        <div class = "menu-logo">
+            <a class="menu-icon" onclick="hamburger()">
+                <div>&#9776;</div>
+            </a>
+
+            <img src = "images/company-logo.png" alt = "Orientertainment Logo">
+        </div>
+
+		<div id = "menu-links">
+			<a href = "index.htm">Home</a>
+			<a href = "about.htm">About Us</a>
+			<a href = "games.htm">Games</a>
+			<a href = "contact.htm">Contact Us</a>
+		</div>	
+	</nav>
+
+    <!-- Tablet Nav -->
+	<nav class = "tablet-nav">       
+        <a href = "index.htm">Home</a>
+        <a href = "about.htm">About Us</a>
+
+        <img src = "images/company-logo.png" alt = "Orientertainment Logo">
+
+        <a href = "games.htm">Games</a>
+        <a href = "contact.htm">Contact Us</a>       
+	</nav>
+	
+	<!-- Desktop Nav -->
+	<nav class = "desktop-nav">       
+        <img src = "images/company-logo.png" alt = "Orientertainment Logo">
+    
+		<ul>
+			<li><a href = "index.htm">Home</a></li>
+			<li><a href = "about.htm">About Us</a></li>
+			<li><a href = "games.htm">Games</a></li>
+			<li><a href = "contact.htm">Contact Us</a></li>
+		</ul>         
+	</nav>
+
+    <!-- Main Content -->
+    <main>
+        <div id = "about-comp">
+            <video controls autoplay muted loop>
+                <source src = "media/orientertainment-video.mp4" type = "video/mp4">
+                <source src = "media/orientertainment-video.webm" type = "video/webm">
+                <p>Videos are not supported by this browser.</p>
+            </video>
+
+            <h1>About the Company</h1>
+
+            <p>Orientertainment consists of a humble team of developers creating games for various audiences. So far, we have made 3 games since this company has started out, and it is with great delight to say that many more are on the way! Besides that, we also offer subscription services for interested gamers who want to gain access to multiple perks and benefits that we currently have on offer.</p>
+        </div>
+
+        <div id = "create-and-faqs">
+            <div id = "create">
+                <h2>Why create this company?</h2>
+
+                <img src = "images/why-create-this-company-image.png" alt = "Two Programmers Discussing and Coding">
+
+                <p>Orientertainment started with a dream, a dream to bring entertainment to everyone interested in games as much as we do. It is a dream to develop great games proudly made in the Philippines. A couple years in, we the team behind Orientertainment have made quite a ways to getting closer to that dream, and we will not stop until we achieve it!</p>
+            </div>
+
+            <div id = "faqs">
+                <h2>Freqeuntly Asked Questions</h2>
+
+                <div class = "question">
+                    <h3>Where can I buy games?</h3>
+                    <p>We sell games both physically and digitally. You can go to your nearest entertainment retail store and get our games there! Or, you could go to your preferred gaming device's online store to search for our products!</p>
+                </div>
+
+                <div class = "question">
+                    <h3>Are the games on console or PC?</h3>
+                    <p>Both! We makes games for everyone! Even on mobile devices you could find our games there!</p>
+                </div>
+
+                <div class = "question">
+                    <h3>Any plans on branching out to other products/services?</h3>
+                    <p>Yes, we have plans! Though it may take some time... we plan to broaden our horizons when we finally have the resources to do so!</p>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <!-- Footer Area -->
+    <footer>
+        <div class = "social">
+            <img src = "images/personal-logo.png" alt = "Personal Logo" class = "personal-logo">
+            <p>Social Media:</p>
+            <a href = "https://www.facebook.com/chesterjonathan.tayag" target = "_blank"><img src = "images/facebook-logo.png" alt = "Facebook Logo" class = "socmed"></a>
+            <a href = "https://twitter.com/ChesterJT22" target = "_blank"><img src = "images/twitter-logo.png" alt = "Twitter Logo" class = "socmed"></a>
+        </div>
+
+        <div class = "credits">
+            <p>This website is created by Tayag, Chester Jonathan C. from WD-202</p>
+            <p>In Partial Fulfillment of the Requirements for the Degree School of Computing</p>
+            <p>Resources used for this project came from Canva.com</p>
+        </div>
+    </footer>
+
+    <script src = "scripts/script.js"></script>
+</body>
+</html>

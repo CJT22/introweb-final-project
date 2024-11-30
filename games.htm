@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang = "en">
+<head>
+    <meta charset = "UTF-8">
+    <meta name = "viewport" content = "width=device-width, initial-scale=1.0">
+    <title>Games | Orientertainment</title>
+    <link rel = "stylesheet" href = "css/styles.min.css">
+    <link rel="shortcut icon" href="images/favicon.ico">
+	<link rel="icon" type="image/png" sizes="32x32" href="images/favicon-32.png">
+	<link rel="apple-touch-icon" sizes="180x180" href="images/appletouch-icon.png">
+	<link rel="icon" sizes="192x192" href="images/android-chrome-192.png">
+</head>
+
+<body>
+    <!-- Mobile Nav -->
+	<nav class = "mobile-nav">
+        <div class = "menu-logo">
+            <a class="menu-icon" onclick="hamburger()">
+                <div>&#9776;</div>
+            </a>
+
+            <img src = "images/company-logo.png" alt = "Orientertainment Logo">
+        </div>
+
+		<div id = "menu-links">
+			<a href = "index.htm">Home</a>
+			<a href = "about.htm">About Us</a>
+			<a href = "games.htm">Games</a>
+			<a href = "contact.htm">Contact Us</a>
+		</div>	
+	</nav>
+
+    <!-- Tablet Nav -->
+	<nav class = "tablet-nav">       
+        <a href = "index.htm">Home</a>
+        <a href = "about.htm">About Us</a>
+
+        <img src = "images/company-logo.png" alt = "Orientertainment Logo">
+
+        <a href = "games.htm">Games</a>
+        <a href = "contact.htm">Contact Us</a>       
+	</nav>
+	
+	<!-- Desktop Nav -->
+	<nav class = "desktop-nav">       
+        <img src = "images/company-logo.png" alt = "Orientertainment Logo">
+    
+		<ul>
+			<li><a href = "index.htm">Home</a></li>
+			<li><a href = "about.htm">About Us</a></li>
+			<li><a href = "games.htm">Games</a></li>
+			<li><a href = "contact.htm">Contact Us</a></li>
+		</ul>         
+	</nav>
+
+    <!-- Main Content -->
+    <main id = "games">
+        <div id = "featured">
+            <h1>Featured Game</h1>
+
+            <div id = "featured-content">
+                <img src = "images/featured-game.png" alt = "CUB3 VR Game Cover">
+
+                <div id = "featured-text">
+                    <h2>CUB3 VR</h2>
+                    <p>Ready to experience CUB3 like never before? CUB3 VR provides a more, immersive experience for players wanting more CUB3 action! Dodge the cubes for as long as you can and see if you can beat the highscore! Try to beat your friends' highscores or compete in the global leaderboards. CUB3 VR out now!</p>
+                </div>
+            </div>
+        </div>
+
+        <div id = "developed">
+            <h1>Developed Games</h1>
+
+            <div id = "d-games">
+                <div class = "d-game">
+                    <img src = "images/game-1.png" alt = "CUB3 Game Cover">
+                    <h2>CUB3</h2>
+                </div>
+
+                <div class = "d-game">
+                    <img src = "images/game-2.png" alt = "life.min Game Cover">
+                    <h2>life.min</h2>
+                </div>
+
+                <div class = "d-game">
+                    <img src = "images/game-3.png" alt = "Attorney Atmey Game Cover">
+                    <h2>Attorney Atmey</h2>
+                </div>
+            </div>
+        </div>
+
+        <div class = "mobile" id = "subscription">
+            <h1>Subscription Services</h1>
+
+            <div class = "tier">
+                <h2>Bronze Tier</h2>
+                <p><strong>Perks:</strong> Monthly Video Game Merch: t-shirts</p>
+                <p><strong>Price:</strong> Php 500</p>
+            </div>
+
+            <div class = "tier">
+                <h2>Silver Tier</h2>
+                <p><strong>Perks:</strong> Monthly Video Game Merch: t-shirts, hats, mugs</p>
+                <p><strong>Price:</strong> Php 1,500</p>
+            </div>
+
+            <div class = "tier">
+                <h2>Gold Tier</h2>
+                <p><strong>Perks:</strong> Monthly Video Game Merch: t-shirts, hats, mugs, bags + Exclusive Access To: behind the scenes game development videos</p>
+                <p><strong>Price:</strong> Php 2,500</p>
+            </div>
+
+            <div class = "tier">
+                <h2>Platinum Tier</h2>
+                <p><strong>Perks:</strong> Monthly Video Game Merch: t-shirts, hats, mugs, bags + Exclusive Access To: behind the scenes game development videos, video game demos, beta testing</p>
+                <p><strong>Price:</strong> Php 5,000</p>
+            </div>
+
+            <div class = "tier">
+                <h2>Pearl Tier</h2>
+                <p><strong>Perks:</strong> Monthly Video Game Merch: t-shirts, hats, mugs, bags + Exclusive Access To: behind the scenes game development videos, video game demos, beta testing + suggest an idea and we'll implement it in one of our games!</p>
+                <p><strong>Price:</strong> Php 10,000</p>
+            </div>
+        </div>
+
+        <div class = "tab-desk" id = "subscription-table">
+            <h1>Subscription Services</h1>
+
+            <table>
+                <tr class = "first-row">
+                    <th class = "upper-left">Tier</th>
+                    <th class = "perks">Perks</th>
+                    <th class = "upper-right">Price</th>
+                </tr>
+
+                <tr class = "even-row">
+                    <td>Bronze</td>
+                    <td class = "perks">Monthly Video Game Merch: t-shirts</td>
+                    <td>Php 500</td>
+                </tr>
+
+                <tr>
+                    <td>Silver</td>
+                    <td class = "perks">Monthly Video Game Merch: t-shirts, hats, mugs</td>
+                    <td>Php 1,500</td>
+                </tr>
+
+                <tr class = "even-row">
+                    <td>Gold</td>
+                    <td class = "perks">Monthly Video Game Merch: t-shirts, hats, mugs, bags + Exclusive Access To: behind the scenes game development videos</td>
+                    <td>Php 2,500</td>
+                </tr>
+
+                <tr>
+                    <td>Platinum</td>
+                    <td class = "perks">Monthly Video Game Merch: t-shirts, hats, mugs, bags + Exclusive Access To: behind the scenes game development videos, video game demos, beta testing</td>
+                    <td>Php 5,000</td>
+                </tr>
+
+                <tr class = "even-row">
+                    <td class = "lower-left">Pearl</td>
+                    <td class = "perks">Monthly Video Game Merch: t-shirts, hats, mugs, bags + Exclusive Access To: behind the scenes game development videos, video game demos, beta testing + suggest an idea and we'll implement it in one of our games!</td>
+                    <td class = "lower-right">Php 10,000</td>
+                </tr>               
+            </table>
+        </div>
+
+        <div id = "coming-soon">
+            <h1>Coming Soon</h1>
+
+            <div id = "cs-games">
+                <div class = "cs-game">
+                    <img src = "images/coming-soon-1.png" alt = "Star Walker Game Cover">
+                    <h2>Star Walker</h2>
+                </div>
+
+                <div class = "cs-game">
+                    <img src = "images/coming-soon-2.png" alt = "DEViANT Game Cover">
+                    <h2>DEViANT</h2>
+                </div>
+
+                <div class = "cs-game">
+                    <img src = "images/coming-soon-3.png" alt = "Question Mark">
+                    <h2>Stay tuned...</h2>
+                </div> 
+            </div>
+        </div>
+    </main>
+
+    <!-- Footer Area -->
+    <footer>
+        <div class = "social">
+            <img src = "images/personal-logo.png" alt = "Personal Logo" class = "personal-logo">
+            <p>Social Media:</p>
+            <a href = "https://www.facebook.com/chesterjonathan.tayag" target = "_blank"><img src = "images/facebook-logo.png" alt = "Facebook Logo" class = "socmed"></a>
+            <a href = "https://twitter.com/ChesterJT22" target = "_blank"><img src = "images/twitter-logo.png" alt = "Twitter Logo" class = "socmed"></a>
+        </div>
+
+        <div class = "credits">
+            <p>This website is created by Tayag, Chester Jonathan C. from WD-202</p>
+            <p>In Partial Fulfillment of the Requirements for the Degree School of Computing</p>
+            <p>Resources used for this project came from Canva.com</p>
+        </div>
+    </footer>
+
+    <script src = "scripts/script.js"></script>
+</body>
+</html>
